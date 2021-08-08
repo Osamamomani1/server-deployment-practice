@@ -31,7 +31,7 @@ describe('my API Server', ()=> {
         const response = await request.get('/'); // async
         expect(response.status).toEqual(200);
         console.log(response.text);
-        expect(response.text).toEqual('Welcome to Home page');
+        expect(response.text).toEqual('Welcome to Home page again');
     });
 
 
